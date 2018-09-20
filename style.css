@@ -33,8 +33,9 @@ html {
 
 #menu ul{
   list-style: none;
-  display: block;
+  display: inline-block;
   position:static;
+  overflow: auto;
   padding: 0% 0% 0% 0%;
   background-color: pink;
 }
