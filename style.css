@@ -1,12 +1,16 @@
+html{
+  margin: 0;
+}
+
 body {
-  margin: 0;
+  margin-top: -0.1%;
+  margin-left: -0.5%;
 }
 
-header {
-  margin: 0;
-}
-
-html {
+main{
+  margin: 0% 0% 0% 15%;
+  overflow: auto;
+  float: left;
 }
 
 #menu {
@@ -15,7 +19,7 @@ html {
   padding: 0;
   width: 13%;
   background-color: #00cc00;
-  position: absolute;
+  position: fixed;
   height: 100%;
   font-size: 140%;
   text-align: center;
@@ -44,13 +48,56 @@ html {
   background-color: lightgreen;
 }
 
+table {
+  border-width: thick;
+  background-color: green;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 200%;
+  margin-top: 5%;
+  margin-left: 15%;
+  float: left;
+  overflow: hidden;
+}
+
+td{
+  text-align: center;
+  background-color: lightgreen;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: black;
+}
+
+header {
+  margin-left: 45%;
+  font-size: 500%;
+}
+
+aside {
+  margin-left: 70%;
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: lightgreen;
+  font-size: 170%;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thick;
+  float: right;
+  position: absolute; 
+}
+
+aside h1 {
+  text-align: center;
+}
+
 footer {
   text-align: center;
   height: 4%;
   background-color:#00cc00;
   width: 98,5%;
   padding: auto;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
