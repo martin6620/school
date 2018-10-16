@@ -10,6 +10,20 @@ body {
 main{
   margin: 2% 0% 3% 17%;
   float: left;
+  border-color: black;
+  border-style: solid;
+}
+
+section{
+  margin-top: 1.3%;
+  margin-right: 45%;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thick;
+  float: left;
+  background-color: lightgreen;
+  font-size: 170%;
 }
 
 #menu {
@@ -41,8 +55,8 @@ main{
   list-style: none;
   display: inline-block;
   position: absolute;
-  padding: 0% 0% 0% 0%;
-  background-color: pink;
+  padding: 1% 0.5%;
+  background-color: #00aa00;
   left: 100%;
   margin-top: -10%;
 }
@@ -86,14 +100,15 @@ td{
 aside {
   margin-left: 65%;
   margin-right: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
   background-color: lightgreen;
   font-size: 170%;
   border-style: solid;
   border-radius: 10px;
   border-width: thick;
   float: right;
-  position: absolute; 
+  position: absolute;
+  margin-bottom: 3%;
 }
 
 aside h1 {
