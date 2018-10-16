@@ -45,6 +45,7 @@ main{
   padding: 0% 0% 0% 0%;
   background-color: pink;
   left: 100%;
+  margin-top: -10%;
 }
 
 #menu li:hover:not(.active){
