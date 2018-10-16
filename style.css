@@ -8,7 +8,7 @@ body {
 }
 
 main{
-  margin: 0% 0% 0% 15%;
+  margin: 2% 0% 3% 17%;
   float: left;
 }
 
@@ -80,7 +80,7 @@ td{
   background-repeat: no-repeat;
   color: rgb(43, 255, 0);
   margin-left: 15%;
-  font-size: 300%;
+  font-size: 250%;
 }
 
 aside {
