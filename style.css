@@ -9,7 +9,6 @@ body {
 
 main{
   margin: 0% 0% 0% 15%;
-  overflow: auto;
   float: left;
 }
 
@@ -60,9 +59,9 @@ table {
   border-color: black;
   font-size: 200%;
   margin-top: 5%;
-  margin-left: 15%;
+  margin-left: 17%;
+  margin-bottom: 3%;
   float: left;
-  overflow: hidden;
 }
 
 td{
@@ -73,13 +72,19 @@ td{
   border-color: black;
 }
 
-header {
-  margin-left: 45%;
-  font-size: 500%;
+.header {
+  padding: 1.5%;
+  text-align: center;
+  background-image: url("afbeeldingen/banner.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: rgb(43, 255, 0);
+  margin-left: 15%;
+  font-size: 300%;
 }
 
 aside {
-  margin-left: 70%;
+  margin-left: 65%;
   margin-right: 5%;
   margin-top: 5%;
   background-color: lightgreen;
@@ -105,4 +110,5 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
+  margin: 1% 0 0 0
 }
