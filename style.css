@@ -137,7 +137,7 @@ footer {
 
 .slideshow img{
   position: absolute;
-  animation: slideshow 20s infinite;
+  animation: slideshow 35s infinite;
   opacity: 0;
   width: auto;
   height: 60%;
@@ -146,8 +146,12 @@ footer {
   max-width: 80%;
 }
 
-@keyframes slideshow {25%{opacity:1;} 40%{opacity:0;}} 
-.slideshow img:nth-child(4){animation-delay:0s;}
-.slideshow img:nth-child(3){animation-delay:5s;}
-.slideshow img:nth-child(2){animation-delay:10s;}
-.slideshow img:nth-child(1){animation-delay:15s;}
+@keyframes slideshow {25%{opacity:1;} 40%{opacity:0;}}
+.slideshow img:nth-child(7){animation-delay:0s;}
+.slideshow img:nth-child(6){animation-delay:5s;}
+.slideshow img:nth-child(5){animation-delay:10s;}
+.slideshow img:nth-child(4){animation-delay:15s;}
+.slideshow img:nth-child(3){animation-delay:20s;}
+.slideshow img:nth-child(2){animation-delay:25s;}
+.slideshow img:nth-child(1){animation-delay:30s;}
+
