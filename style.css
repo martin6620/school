@@ -102,6 +102,8 @@ aside {
   margin-right: 5%;
   margin-top: 3%;
   padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.5%;
   background-color: lightgreen;
   font-size: 170%;
   border-style: solid;
@@ -154,4 +156,8 @@ footer {
 .slideshow img:nth-child(3){animation-delay:20s;}
 .slideshow img:nth-child(2){animation-delay:25s;}
 .slideshow img:nth-child(1){animation-delay:30s;}
+
+.opbouw{
+  background-image: url("afbeeldingen/opbouw.jpg");
+}
 
